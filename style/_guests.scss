@@ -1,0 +1,31 @@
+.guests {
+  position: relative;
+  bottom: 200px;
+}
+
+.container-guests {
+  display: flex;
+  flex-flow: column;
+}
+
+.container-guests-img {
+  width: 100vw;
+  height: auto;
+  overflow: auto;
+  filter: grayscale(100%);
+}
+
+.title-guests {
+  font-size: 2em;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-guests {
+    flex-flow: row wrap;
+  }
+
+  .container-guests-img {
+    width: 33.3%;
+  }
+}

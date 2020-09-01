@@ -1,0 +1,40 @@
+.phone {
+  width: 280px;
+  height: auto;
+  position: relative;
+  z-index: 5;
+  bottom: 330px;
+}
+
+.container-origin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-origin {
+  position: relative;
+  bottom: 250px;
+  margin: 0px 40px;
+  // width: 350px;
+}
+
+.title-origin {
+  font-size: 2em;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-origin {
+    flex-flow: row;
+  }
+
+  .text-origin {
+    width: 600px;
+  }
+
+  .phone {
+    margin: 0px 0px 0px 40px;
+  }
+}

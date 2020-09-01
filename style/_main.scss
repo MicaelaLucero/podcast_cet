@@ -1,0 +1,102 @@
+.principal {
+  background: #fff;
+  width: 100vw;
+  height: auto;
+  padding: 80px 0px 0px;
+}
+
+li {
+  font-size: 24px;
+  color: #fff;
+  padding: 30px;
+}
+h1 {
+  color: #005c97;
+  text-align: center;
+  font-weight: 400;
+  margin: 20px;
+}
+strong {
+  text-decoration-line: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+.principal > p {
+  text-align: center;
+  color: #3c1053;
+  font-family: "Turret Road", cursive;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+.button {
+  position: relative;
+  top: 80px;
+  left: 170px;
+  background-color: #6b0eaa;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+#nina {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  transform: translate(-40px, 40px);
+}
+
+@media screen and (min-width: 320px) {
+  #nina {
+    transform: translate(-60px, 53px);
+  }
+  .button {
+    left: 140px;
+    top: 80px;
+  }
+}
+@media screen and (min-width: 550px) {
+  #nina {
+    transform: translate(30px, 50px);
+  }
+  .button {
+    left: 240px;
+    top: 80px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #nina {
+    transform: translate(80px, -10px);
+  }
+  .button {
+    left: 320px;
+    top: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #nina {
+    transform: translate(200px, -10px);
+  }
+  .button {
+    left: 410px;
+    top: 20px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  #nina {
+    transform: translate(350px, -20px);
+  }
+  .button {
+    left: 580px;
+    top: 20px;
+  }
+}
